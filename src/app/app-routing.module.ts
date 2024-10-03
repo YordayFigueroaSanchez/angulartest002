@@ -9,6 +9,7 @@ import { NotpagefoundComponent } from './notpagefound/notpagefound.component';
 const routes: Routes = [
 
   {path:'**', component:NotpagefoundComponent},
+  {path:'', redirectTo:'/dashboard', pathMatch:'full'},
 ];
 
 @NgModule({

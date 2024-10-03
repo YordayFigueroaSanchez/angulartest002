@@ -12,11 +12,11 @@ const routes: Routes = [
     //{ path: '**', component: ... },
     //{ path: 'oldPath', redirectTo: '/staticPath' },
     //{ path: ..., component: ..., data: { message: 'Custom' }
-    {path:'', component:PagesComponent, children: [
-        {path:'dashboard', component:DashboardComponent},
+    {path:'dashboard', component:PagesComponent, children: [
+        {path:'', component:DashboardComponent},
         {path:'grafica1', component:Grafica1Component},
         {path:'progress', component:ProgressComponent},
-        {path:'', redirectTo:'/dashboard', pathMatch:'full'},
+        // {path:'', redirectTo:'/dashboard', pathMatch:'full'},
       ]},
 ];
 
