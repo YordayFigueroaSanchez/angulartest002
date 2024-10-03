@@ -19,13 +19,6 @@ import { HeaderComponent } from './shared/header/header.component';
     LoginComponent,
     RegisterComponent,
     NotpagefoundComponent,
-    // BreadcrumbsComponent,
-    // SidebarComponent,
-    // HeaderComponent,
-    // DashboardComponent,
-    // ProgressComponent,
-    // Grafica1Component,
-    // PagesComponent
   ],
   imports: [
     BrowserModule,
